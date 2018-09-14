@@ -18,6 +18,7 @@ namespace CompressionStockingApplication
             
             Console.WriteLine("Compression Stocking Control User Interface");
             Console.WriteLine("Choose compress mode. Q for Pumpmode. W for Lacesmode.");
+
             consoleKeyInfo = Console.ReadKey(true);
 
             if (consoleKeyInfo.Key == ConsoleKey.Q) compressionStockingstocking = new StockingCtrl(new CompressionCtrlForPump());
